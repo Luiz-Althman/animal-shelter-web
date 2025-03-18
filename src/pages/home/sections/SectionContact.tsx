@@ -1,4 +1,4 @@
-import { EnvelopeSimple, WhatsappLogo } from 'phosphor-react';
+import { Globe, WhatsappLogo } from 'phosphor-react';
 import { HeaderSections } from '../../../components/headerSections';
 
 export function SectionContact() {
@@ -41,12 +41,12 @@ export function SectionContact() {
                 <div className="flex flex-col gap-5 relative">
                     <div className="absolute w-[300px] h-[300px] bg-bege/50 right-15 bottom-10 rounded-full -z-10" />
                     <a
-                        href="mailto:luizalthmandev@gmail.com"
+                        href="https://devluizalthman.vercel.app"
                         target="_blank"
                         className="flex items-center gap-5 text-2xl cursor-pointer hover:opacity-80"
                     >
-                        <EnvelopeSimple size={40} />
-                        luizalthmandev@gmail.com
+                        <Globe size={40} />
+                        Portfólio e outros contatos
                     </a>
                     <a
                         href="https://wa.me/5511947469137"

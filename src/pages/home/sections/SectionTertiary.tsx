@@ -21,9 +21,9 @@ export function SectionTertiary() {
                                 <h4 className="font-bold text-xl">
                                     {item.animalName}
                                 </h4>
-                                <p className="font-medium text-xs">
+                                <h5 className="font-medium text-xs">
                                     {item.years}
-                                </p>
+                                </h5>
                             </div>
                             <h5 className="font-light">{item.breed}</h5>
                         </div>

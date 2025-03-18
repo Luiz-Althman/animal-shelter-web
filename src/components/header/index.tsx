@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export function Header() {
-    const [activeId, setActiveId] = useState<number | null>(1);
+    const [activeId, setActiveId] = useState<number | null>();
     return (
         <header className="flex w-full justify-center p-6 relative">
             <div className="w-[400px] h-[400px] bg-purple/50 rounded-full absolute inset-0 m-auto -z-10" />

@@ -11,6 +11,7 @@ export function HeaderSections(props: HeaderSectionsProps) {
                 <img
                     src="/about-filhote.png"
                     className="absolute -top-26.5"
+                    alt="Imagem de um cachorro filhote"
                     width={120}
                     height={300}
                 />
