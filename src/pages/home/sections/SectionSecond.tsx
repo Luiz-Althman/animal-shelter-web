@@ -28,6 +28,7 @@ export function SectionSecond() {
                             alt={item.alt}
                             width={400}
                             height={400}
+                            loading="eager"
                         />
                     </div>
                     <div className="w-1/2  z-[40]">
