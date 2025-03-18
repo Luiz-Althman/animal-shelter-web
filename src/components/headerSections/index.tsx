@@ -14,6 +14,7 @@ export function HeaderSections(props: HeaderSectionsProps) {
                     alt="Imagem de um cachorro filhote"
                     width={120}
                     height={300}
+                    loading="eager"
                 />
                 <div className="bg-blue-200 absolute -top-28 -left-10 w-[210px] h-[210px] rounded-full -z-[1]" />
                 <div className="bg-purple py-4 px-10 rounded-full flex justify-end w-[600px]">

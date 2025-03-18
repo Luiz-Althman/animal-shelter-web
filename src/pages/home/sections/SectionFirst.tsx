@@ -15,7 +15,12 @@ export function SectionFirst() {
                 </button>
             </div>
             <div className="absolute -right-25 -top-22 z-[-9]">
-                <img src={Labrador} alt="Labrador" width={500} />
+                <img
+                    src={Labrador}
+                    alt="Labrador"
+                    width={500}
+                    loading="eager"
+                />
             </div>
             <div className="absolute w-[500px] h-[500px] bg-rose-100 -right-27 -bottom-39 rounded-full -z-10" />
         </section>
