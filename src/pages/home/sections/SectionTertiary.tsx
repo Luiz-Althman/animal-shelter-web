@@ -18,12 +18,12 @@ export function SectionTertiary() {
                         <img src={item.url} alt="" />
                         <div className="p-3 text-grayText-200">
                             <div className="flex justify-between items-center">
-                                <h4 className="font-bold text-xl">
+                                <h3 className="font-bold text-xl">
                                     {item.animalName}
-                                </h4>
-                                <h5 className="font-medium text-xs">
+                                </h3>
+                                <p className="font-medium text-xs">
                                     {item.years}
-                                </h5>
+                                </p>
                             </div>
                             <h5 className="font-light">{item.breed}</h5>
                         </div>

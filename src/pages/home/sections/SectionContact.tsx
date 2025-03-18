@@ -9,14 +9,15 @@ export function SectionContact() {
                 description="Thank you for the company it was a pleasure to meet you! here you can leave your phone number to contact our operator and also help our project with a donation"
             />
             <div className="flex justify-between items-center mt-15">
-                <div className="space-y-4">
-                    <label htmlFor="email" className="flex flex-col gap-1">
+                <form className="space-y-4">
+                    <label htmlFor="phone" className="flex flex-col gap-1">
                         <span className="pl-3 text-xs">
                             Enter your phone number
                         </span>
                         <input
+                            id="phone"
                             type="text"
-                            placeholder="Number"
+                            placeholder="your number"
                             className="border-rose-100 border-2 py-2 px-4 rounded-md w-xs"
                         />
                     </label>
@@ -27,7 +28,7 @@ export function SectionContact() {
                         <input
                             id="email"
                             type="text"
-                            placeholder="E-mail"
+                            placeholder="Your e-mail"
                             className="border-rose-100 border-2 py-2 px-4 rounded-md w-xs"
                         />
                     </label>
@@ -37,7 +38,7 @@ export function SectionContact() {
                     >
                         <span className="relative z-10">Send</span>
                     </button>
-                </div>
+                </form>
                 <div className="flex flex-col gap-5 relative">
                     <div className="absolute w-[300px] h-[300px] bg-bege/50 right-15 bottom-10 rounded-full -z-10" />
                     <a

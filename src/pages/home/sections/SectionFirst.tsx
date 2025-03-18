@@ -1,4 +1,4 @@
-import Labrador from '/labrador.png';
+import Labrador from '/labrador.webp';
 
 export function SectionFirst() {
     return (
@@ -15,7 +15,7 @@ export function SectionFirst() {
                 </button>
             </div>
             <div className="absolute -right-25 -top-22 z-[-9]">
-                <img src={Labrador} alt="Labrador" className="w-[500px]" />
+                <img src={Labrador} alt="Labrador" width={500} />
             </div>
             <div className="absolute w-[500px] h-[500px] bg-rose-100 -right-27 -bottom-39 rounded-full -z-10" />
         </section>
