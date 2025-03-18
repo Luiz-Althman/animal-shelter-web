@@ -1,2 +1,4 @@
-User-agente: *
-Disallow:
+User-agent: *
+Disallow: /admin/
+Allow: /
+Sitemap: https://animal-shelter.up.railway.app/sitemap.xml

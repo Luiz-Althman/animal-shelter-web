@@ -25,7 +25,7 @@ export function SectionTertiary() {
                                     {item.years}
                                 </p>
                             </div>
-                            <h5 className="font-light">{item.breed}</h5>
+                            <p className="font-light">{item.breed}</p>
                         </div>
                     </div>
                 ))}
