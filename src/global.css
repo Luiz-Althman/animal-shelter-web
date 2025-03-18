@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-background: #f0f0f0;
+    --color-purple: #dec1e9;
+    --color-blue-100: #283b40;
+    --color-blue-200: #c1cce9;
+    --color-blue-300: #7383d9;
+    --color-rose-100: #f2968f;
+    --color-copper: #c97e54;
+    --color-grayText-200: #2b2b2e;
+    --color-aqua: #c1e9e6;
+    --color-green-light: #c2e9c1;
+    --color-bege: #e9cfc1;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+}
